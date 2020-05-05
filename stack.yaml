@@ -3,6 +3,6 @@ resolver: custom-resolver.yaml
 packages:
 - .
 
-# extra-deps:
-#   - git: https://github.com/antoine-fl/dummy-dep
-#     commit: 2f4e982ada5fea94e3d7766e3f7d748e4189e95d
+extra-deps:
+  - git: https://github.com/antoine-fl/dummy-dep
+    commit: 2f4e982ada5fea94e3d7766e3f7d748e4189e95d
