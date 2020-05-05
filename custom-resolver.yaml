@@ -1,0 +1,6 @@
+name: custom-resolver
+resolver: lts-15.11
+
+packages:
+  - git: https://github.com/antoine-fl/dummy-dep
+    commit: 2f4e982ada5fea94e3d7766e3f7d748e4189e95d
